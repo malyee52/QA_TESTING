@@ -1,10 +1,4 @@
-# Vendored game source (fetched by scripts/setup-angband.sh)
-vendor/
-# Generated artifacts
-specs/*.json
-test-cases/generated/*
-reports/*
-!reports/.gitkeep
+output/*
+!output/.gitkeep
 __pycache__/
 *.pyc
-.qa-cache/
