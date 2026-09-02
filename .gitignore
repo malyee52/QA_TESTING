@@ -1,4 +1,14 @@
 output/*
 !output/.gitkeep
+
+# Vendored game source (fetched by scripts/setup-angband.sh)
+vendor/
+# Generated QA pipeline artifacts
+specs/*.json
+test-cases/generated/*
+reports/*
+!reports/.gitkeep
+
 __pycache__/
 *.pyc
+.qa-cache/
